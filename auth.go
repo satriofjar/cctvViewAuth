@@ -4,7 +4,7 @@ import (
 	"encoding/gob"
 	"net/http"
 
-	"cctvView/models"
+	"cctvViewAuth/models"
 
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/sessions"

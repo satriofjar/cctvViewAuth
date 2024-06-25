@@ -1,7 +1,7 @@
 package main
 
 import (
-	"cctvView/models"
+	"cctvViewAuth/models"
 	"log"
 	"net/http"
 

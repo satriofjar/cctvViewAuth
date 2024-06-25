@@ -1,7 +1,7 @@
 package main
 
 import (
-	"cctvView/models"
+	"cctvViewAuth/models"
 	"fmt"
 	"log"
 	"net/http"
@@ -45,7 +45,7 @@ func LoginHandler(c *gin.Context) {
 		session.Values["user"] = UserName
 		// save before writing to response/return from handler
 		session.Save(c.Request, c.Writer)
-		c.Redirect(http.StatusMovedPermanently, "/stream/floor/lantai_1")
+		c.Redirect(http.StatusMovedPermanently, "/stream/all/0")
 	}
 
 }

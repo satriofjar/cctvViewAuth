@@ -2,7 +2,7 @@ package main
 
 import (
 	"bytes"
-	"cctvView/helper"
+	"cctvViewAuth/helper"
 	"encoding/json"
 	"fmt"
 	"log"
